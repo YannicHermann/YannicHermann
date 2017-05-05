@@ -1,0 +1,162 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+	text-align:center;
+}
+
+header ul{
+	list-style:none;
+	display: inline;
+	margin-bottom:1em;	
+}
+
+header ul li{
+	margin-right:0.5em;
+
+}
+
+#buttonMediaDesign{
+	display:inline;
+	transition:1s;
+	font-size:larger;
+	color:rgba(94,32,40,0.75);
+
+	
+}
+
+#buttonMediaDesign:hover{
+	
+	cursor:pointer;
+	border: rgba(94,32,40,0.5) solid 2px;
+
+	padding-top:0.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	transition:0.5s;
+}
+
+#buttonInteractiveMedia{
+	display:inline;
+	transition:1s;
+	font-size:larger;
+	color:rgba(94,32,40,0.75);
+
+}
+
+#buttonInteractiveMedia:hover{
+	
+	cursor:pointer;
+	border: rgba(94,32,40,0.5) solid 2px;
+
+	padding-top:0.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	transition:0.5s;
+}
+
+#buttonPhotography{
+	display:inline;
+	transition:1s;
+	font-size:larger;
+	color:rgba(94,32,40,0.75);
+
+}
+
+#buttonPhotography:hover{
+	
+	cursor:pointer;
+	border: rgba(94,32,40,0.5) solid 2px;
+
+	padding-top:0.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	transition:0.5s;
+}
+
+#buttonAllWorks{
+	display:inline;
+	transition:1s;
+	font-size:larger;
+	color:rgba(94,32,40,0.75);
+	/*margin-right:1em;*/
+}
+
+#buttonAllWorks:hover{
+	
+	cursor:pointer;
+	border: rgba(94,32,40,0.5) solid 2px;
+
+	padding-top:0.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	transition:0.5s;
+}
+
+main{
+	position:relative;
+	top:35em;
+}
+
+.works{
+	display:block;
+	width:100%;
+	margin:auto;
+	margin-top:5%;
+	position:relative;
+	top:-20em;
+	float:left;
+}
+
+.headline{
+	display:inline;
+	transition:1s;
+	font-size:larger;
+	color:rgba(94,32,40,0.75);
+}
+
+
+figcaption{
+	text-align:center;
+	position:relative;
+	top:-15em;
+	z-index: 80;
+}
+
+.imghochformat{
+	width:60%;
+	padding:1em;
+	border-top: solid rgba(94,32,40,0.5) 2px;
+	border-bottom: solid rgba(94,32,40,0.5) 2px;
+	position:relative;
+	left:15%;
+	top:-15em;
+	float:left;
+}
+
+.imgquerformat{
+	width:80%;
+	padding:1em;
+	border-top: solid rgba(94,32,40,0.5) 2px;
+	border-bottom: solid rgba(94,32,40,0.5) 2px;
+	position:relative;
+	left:5%;
+	top:-15em;
+	float:left;
+}
+
+footer{
+	position:relative;
+	float:left;
+}
+
+@media screen and (min-width:768px){
+	.works{
+		width:50%;
+
+	}
+}
+

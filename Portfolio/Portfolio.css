@@ -1,0 +1,278 @@
+
+body {
+	/*z-index:100;*/
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+	width:100%;
+
+	z-index: 90;
+	border-bottom:solid rgba(94,32,40,0.5) 3px;
+	position:fixed;
+	background-color:#FFFFFF;
+	padding-top:4em;
+}
+
+#hamburger{
+	width:7%;
+	position:fixed;
+	top:0.6em;
+	left:2%;
+	cursor: pointer;
+}
+
+#headernav{
+	position:relative;
+	left:0%;
+	display:none;
+}
+#headerlist{
+	display:inline;
+	list-style: none;
+}
+
+header ul li{
+	display:inline;
+	margin:5%;
+	/*position:relative;
+	left:-4%;
+	top:0.2em;*/
+}
+
+header ul li:hover{
+	color:rgba(94,32,40,0.5);
+	font-weight:bolder;
+	cursor:pointer;
+}
+
+header a{
+	text-decoration: none;
+	color:#000000;
+}
+
+#logo{
+	width:8%;
+	/*height:0em;*/
+	position:fixed;
+	top:0.2em;
+	left:46%;
+}
+#mail-Icon{
+	width:10%;	
+	position:fixed;
+	left:88%;
+	top:0.2em;
+}
+
+/*******MAIN******/
+
+#background1{
+	background-image: url("me.jpg");
+	position: relative;
+	top:-9em;
+	left:-5%;
+	width:100%;
+	opacity:0.7;
+	z-index: -1;
+}
+#greeter{
+	font-size:3em;
+	text-align:center;
+	border-bottom: solid rgba(94,32,40,0.5) 2px;
+	position:relative;
+	top:-6.8em;	
+}
+
+main{
+	position:relative;
+	top:13em;
+}	
+
+#designation{
+	text-align:center;
+	font-size:1.5em;
+	position:relative;
+	top:-15em;
+}
+
+#aboutMe{
+	text-align:center;
+	font-size:1em;
+	margin:2em;
+	padding:1em;
+	border-bottom: solid rgba(94,32,40,0.5) 2px;
+	border-top: solid rgba(94,32,40,0.5) 2px;
+	position:relative;
+	top:-21em;
+}
+
+#section2{
+	position:relative;
+	top:15em;
+}
+h1{
+	color:rgba(94,32,40,0.75);
+	text-align:center;
+	position:relative;
+	top:-22em;
+}
+.cover{
+	display:block;
+	/*width:100%;*/
+	margin-top:10%;
+	position:relative;
+	top:-20em;
+	float:left;
+}
+
+.headline{
+	display:inline;
+	transition:1s;
+	font-size:larger;
+	color:rgba(94,32,40,0.75);
+}
+
+/*.toAllWorksOfThis:hover{
+	
+	cursor:pointer;
+	border: rgba(94,32,40,0.5) solid 2px;
+	border-bottom:none;
+	padding-top:1em;
+	padding-left:1em;
+	padding-right:1em;
+	transition:0.5s;
+}*/
+figcaption{
+	text-align:center;
+	position:relative;
+	top:-16em;
+	z-index: 80;
+}
+
+.imghochformat{
+	width:60%;
+	padding:1em;
+	border-top: solid rgba(94,32,40,0.5) 2px;
+	border-bottom: solid rgba(94,32,40,0.5) 2px;
+	position:relative;
+	left:15%;
+	top:-16em;
+	float:left;
+}
+
+#blur{
+	filter:blur(5px);
+}
+
+
+
+/*******FOOTER*********/
+
+footer{
+	position:relative;
+	top:-8em;
+	float: right;
+}
+
+footer nav{
+	position:relative;
+	top:6em;
+	
+	margin-bottom:45%;	
+}
+#letsConnect{
+	font-size:2em;
+	text-align:center;
+	border-bottom: solid rgba(94,32,40,0.5) 2px;
+}
+
+footer ul li{
+	list-style:none;
+	display:inline;
+	position:relative;
+	left:9%;
+	margin-right: 5%;
+}
+
+footer ul li img:hover{
+	background-color: rgba(94,32,40,0.5);
+	border-radius:50%;
+	cursor:pointer;
+}
+
+#spandiv{
+	display:block;
+	border-top: rgba(94,32,40,0.5) solid 5px;
+	color:#000000;
+	text-align:center;
+}
+
+
+@media screen and (min-width:570px){
+	#mail-Icon{
+		width:8%;
+	}
+}
+
+@media screen and (min-width:768px){
+	.cover{
+		width:50%;
+	}
+	.imghochformat{
+		width:80%;
+		left:5%;
+	}
+		#mail-Icon{
+		width:6%;
+	}
+	#logo{
+		width:6%;
+	}
+	#hamburger{
+		width:5%;
+	}
+	#background1{
+		width:80%;
+		left:5%;
+	}
+	footer nav{
+	margin-bottom:35%;	
+	}
+}
+
+@media screen and (min-width:1024px){
+	#background1{
+		width:55%;
+		left:17%;
+	}
+	.imghochformat{
+		width:60%;
+		left:20%;
+	}
+		#mail-Icon{
+		width:5.5%;
+	}
+	#logo{
+		width:5.5%;
+	}
+	#hamburger{
+		width:5%;
+	}
+	#letsConnect{
+		width:80%;
+		margin:auto;
+	}
+	footer nav{
+	margin-bottom:15%;	
+	}
+	footer{
+		top:0;
+	}
+	header{
+		height:3%;
+	}
+}
+
+
